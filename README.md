@@ -30,8 +30,10 @@ Manual: copy a folder from `skills/` into your agent's skills directory.
 | Agent | Project | Global |
 |-------|---------|--------|
 | Claude Code | `.claude/skills/` | `~/.claude/skills/` |
-| Cursor | `.agents/skills/` | `~/.cursor/skills/` |
+| Cursor | `.cursor/skills/` | `~/.cursor/skills/` |
 | Codex | `.agents/skills/` | `~/.agents/skills/` |
+
+Cursor also reads `.agents/skills/` and `~/.agents/skills/` (shared with Codex); `npx skills add -a cursor` installs the project copy in `.agents/skills/`.
 
 For example: `cp -R skills/skill-review .claude/skills/`.
 
