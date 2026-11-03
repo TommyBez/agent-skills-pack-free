@@ -31,7 +31,7 @@ Manual: copy a folder from `skills/` into your agent's skills directory.
 |-------|---------|--------|
 | Claude Code | `.claude/skills/` | `~/.claude/skills/` |
 | Cursor | `.agents/skills/` | `~/.cursor/skills/` |
-| Codex | `.agents/skills/` | `~/.codex/skills/` |
+| Codex | `.agents/skills/` | `~/.agents/skills/` |
 
 For example: `cp -R skills/skill-review .claude/skills/`.
 
@@ -43,4 +43,4 @@ The full pack (11 skills, $29 one-time): https://agent-skills-pack-indol.vercel.
 
 ## License
 
-The two skills in this repo are MIT licensed (see [LICENSE](LICENSE)). The full pack is sold separately under its own terms.
+The two skills in this repo are MIT licensed (see [LICENSE](LICENSE)). The license covers only the files in this repository. The full pack is sold separately under its own terms.
