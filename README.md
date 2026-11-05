@@ -34,13 +34,13 @@ Manual: copy a whole folder from `skills/` (with its `references/`) into your ag
 | [Cursor](https://cursor.com/docs/context/skills) | `.cursor/skills/` or `.agents/skills/` | `~/.cursor/skills/` or `~/.agents/skills/` (also reads `.claude/skills/`, `.codex/skills/` and their `~/` versions for compatibility; only `~/.cursor/skills/` syncs to Cloud Agents) | Customize → Skills, or type `/` in Agent chat |
 | [Codex](https://developers.openai.com/codex/skills) | `.agents/skills/` (scanned from the working directory up to the repo root) | `~/.agents/skills/` (admin: `/etc/codex/skills`) | Run `/skills` or type `$` in Codex CLI or the IDE extension |
 
-Paths checked on each tool's docs on 4 November 2026. `npx skills add -a cursor` installs the project copy in `.agents/skills/`, which Cursor also reads. Step-by-step: [how to install Claude skills in Claude Code, Cursor and Codex](https://agent-skills-pack-indol.vercel.app/guides/install-seo-skills-claude-code-cursor-codex).
+Paths checked on each tool's docs on 4 November 2026. `npx skills add -a cursor` installs the project copy in `.agents/skills/`, which Cursor also reads. Step-by-step: [how to install Claude skills in Claude Code, Cursor and Codex](https://agentskillspack.com/guides/install-seo-skills-claude-code-cursor-codex?utm_source=github-free&utm_medium=readme).
 
 ## Full pack
 
-These two skills come from a larger set of [Claude SEO skills](https://agent-skills-pack-indol.vercel.app). `search-change-triage` mentions other playbooks (`technical-seo-2026-delta`, `aeo-answer-surface-playbook`, `geo-citation-playbook`); those are in the full pack, not in this repo.
+These two skills come from a larger set of [Claude SEO skills](https://agentskillspack.com/?utm_source=github-free&utm_medium=readme). `search-change-triage` mentions other playbooks (`technical-seo-2026-delta`, `aeo-answer-surface-playbook`, `geo-citation-playbook`); those are in the full pack, not in this repo.
 
-The full pack: 11 skills, $29 one-time, at https://agent-skills-pack-indol.vercel.app
+The full pack: 11 skills, $29 one-time, at [agentskillspack.com](https://agentskillspack.com/?utm_source=github-free&utm_medium=readme)
 
 ## License
 
