@@ -9,6 +9,11 @@ An Agent Skill is a folder with a `SKILL.md` file (`name`, `description`, instru
 - **skill-review**: audits one agent `SKILL.md` with a 0–2 rubric (a quote or a named gap behind each score) and ends with one verdict: ship, tighten, rewrite, or delete/merge. It also flags sibling skills with overlapping descriptions. Use it on your own skills and on any third-party skill before you rely on it.
 - **search-change-triage**: a weekly routine for when traffic, rankings, AI Overviews or AI citations move. It checks official sources first, puts the change into one class, and ends in a single call: wait, watch, or act. Never "rewrite everything" off a wobble.
 
+## Example output
+
+- [skill-review on search-change-triage](examples/skill-review-search-change-triage-2026-11-08.md): one report-only run of `skill-review` on this repo's `search-change-triage` skill (commit `7d5c7f4`), with the score table, soft notes, verdict and proposals the skill produces.
+- An example run of a full-pack skill is on the pack's [examples page](https://agentskillspack.com/examples?utm_source=github-free&utm_medium=readme&utm_content=example).
+
 ## Install
 
 With the [`skills` CLI](https://github.com/vercel-labs/skills):
