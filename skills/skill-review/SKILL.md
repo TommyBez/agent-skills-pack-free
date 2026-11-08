@@ -17,7 +17,7 @@ Read the target frontmatter and body, plus its `references/` and `scripts/` if p
 
 - Skills you own: edit in place. Vendor, plugin, or managed skills you do not own: report only, never edit.
 - **May apply without asking:** rewrite the description into a short when-to-use with a when-not (no "pick me" wording); trim over-specified steps into goal + constraints; add a one-line **Done when** / verification; soften a blanket "ask first" that is not tied to a real side effect; move an inline dump into `references/` and link it; fix broken relative links inside the skill folder; drop duplicate always-on filler.
-- **Needs the owner's OK first:** delete, merge, change of purpose, rewriting more than about 40% of the body, anything that involves secrets.
+- **Needs the owner's OK first:** delete, merge, change of purpose, rewriting more than about 40% of the body, any change to how a skill handles secrets. Never ask for, paste or repeat a secret value; if a reviewed skill contains one, point to its file and line only.
 - Never invent file contents. Unknown owner: propose, do not write. One skill per fix pass; batch reports are fine. Keep the author's voice. Prefer a merge or a clearer description over adding another overlapping skill.
 
 ## Done when
